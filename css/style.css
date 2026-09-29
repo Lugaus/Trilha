@@ -112,7 +112,7 @@ h1 {
   max-width: 100%;
   margin: 10px 0 0;
   font-family: Syne, Inter, sans-serif;
-  font-size: clamp(76px, 13vw, 156px);
+  font-size: 80px;
   font-weight: 800;
   letter-spacing: -0.07em;
   line-height: 0.9;
