@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trilha Front-end</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header class="topo">
+      <p class="rotulo">Front-end 2026 — 2030</p>
+      <h1>Trilha</h1>
+      <p class="resumo" id="resumo"></p>
+    </header>
+    <ol id="trilha" class="trilha"></ol>
+  </main>
+
+  <div class="modal" id="modal" hidden>
+    <button class="modal-fundo" type="button" id="modal-fundo" aria-label="Fechar"></button>
+    <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+      <header class="modal-topo">
+        <div>
+          <p class="modal-fase" id="modal-fase"></p>
+          <h2 id="modal-titulo"></h2>
+        </div>
+        <p class="modal-pct" id="modal-pct"></p>
+        <button class="fechar" type="button" id="modal-fechar">Fechar</button>
+      </header>
+      <div id="modal-corpo"></div>
+    </div>
+  </div>
+
+  <script src="js/trilha.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
